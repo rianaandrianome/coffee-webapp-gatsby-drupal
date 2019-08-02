@@ -40,7 +40,7 @@ class HomeIndex extends React.Component {
                             </ul>
                         </div>
                     </section>
-                    <section>
+                    <section className="three-icons-and-text">
                         <div className="inner">
                             <header className="major">
                                 <h2>Massa libero</h2>
@@ -71,8 +71,12 @@ class HomeIndex extends React.Component {
                             
                         </div>
                     </section>
+                    <section>
+                        <header className="major">
+                            <h2>Massa libero</h2>
+                        </header>
+                    </section>
                     <section className="tiles">
-                        
                         <article style={{backgroundImage: `url(${pic01})`}}>
                             <header className="major">
                                 <h3>Aliquam</h3>
