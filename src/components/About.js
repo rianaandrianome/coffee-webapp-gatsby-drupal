@@ -4,7 +4,7 @@ import { Link } from 'gatsby'
 class About extends React.Component{
     render(){
         return(
-            <section className="section-about">
+            <section id="section-about">
                 <div className="inner">
                     <header className="major">
                         <h2>Massa libero</h2>

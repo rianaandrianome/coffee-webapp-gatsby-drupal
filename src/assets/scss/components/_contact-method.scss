@@ -15,9 +15,16 @@
 			left: 0;
 			position: absolute;
 			top: 0;
+
+			@include breakpoint(medium){
+				position: unset;
+			}
 		}
 
 		h3 {
 			margin: 0 0 (_size(element-margin) * 0.25) 0;
+		}
+		@include breakpoint(medium){
+			text-align: center;
 		}
 	}

@@ -3,7 +3,7 @@ import React from 'react'
 const Contact = (props) => (
     <section id="contact">
         <div className="inner">
-            <section className="section-contact">
+            <section id="section-contact">
                 <form method="post" action="#">
                     <div className="field half first">
                         <label htmlFor="name">Name</label>

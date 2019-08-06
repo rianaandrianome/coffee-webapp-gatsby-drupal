@@ -9,70 +9,74 @@ import pic06 from '../assets/images/pic06.jpg'
 
 
 class Projects extends React.Component{
+    constructor(props){
+        super(props);
+        this.state = {
+            projectsList:[
+                {
+                    title:'Project 1',
+                    description: 'Description of project 1',
+                    image: pic01
+                },
+                {
+                    title:'Project 2',
+                    description: 'Description of project 2',
+                    image: pic02
+                },
+                {
+                    title:'Project 3',
+                    description: 'Description of project 3',
+                    image: pic03
+                },
+                {
+                    title:'Project 4',
+                    description: 'Description of project 4',
+                    image: pic04
+                },
+                {
+                    title:'Project 5',
+                    description: 'Description of project 5',
+                    image: pic05
+                },
+                {
+                    title:'Project 6',
+                    description: 'Description of project 6',
+                    image: pic06
+                },
+                {
+                    title:'Project 7',
+                    description: 'Description of project 7',
+                    image: pic01
+                },
+                {
+                    title:'Project 8',
+                    description: 'Description of project 8',
+                    image: pic01
+                }
+            ]
+        }
+    }
     render(){
+        const projects = this.state.projectsList.map(
+            (project, key) => 
+            <article key={key} style={{backgroundImage: `url(${project.image})`}}>
+                <header className="major">
+                    <h3>{project.title}</h3>
+                    <p>{project.description}</p>
+                </header>
+                <Link to="/landing" className="link primary"></Link>
+            </article>
+        ); 
+        //console.log(this.state.projectsList);
         return(
-            <section className="section-projects">
+            <section id="section-projects">
                 <div className="inner">
+                    
                     <header className="major">
                         <h2>Massa libero</h2>
                     </header>
                     <div className="tiles">
-                        <article style={{backgroundImage: `url(${pic01})`}}>
-                            <header className="major">
-                                <h3>Aliquam</h3>
-                                <p>Ipsum dolor sit amet</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
-                        <article style={{backgroundImage: `url(${pic02})`}}>
-                            <header className="major">
-                                <h3>Tempus</h3>
-                                <p>feugiat amet tempus</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
-                        <article style={{backgroundImage: `url(${pic03})`}}>
-                            <header className="major">
-                                <h3>Magna</h3>
-                                <p>Lorem etiam nullam</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
-                        <article style={{backgroundImage: `url(${pic04})`}}>
-                            <header className="major">
-                                <h3>Ipsum</h3>
-                                <p>Nisl sed aliquam</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
-                        <article style={{backgroundImage: `url(${pic05})`}}>
-                            <header className="major">
-                                <h3>Consequat</h3>
-                                <p>Ipsum dolor sit amet</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
-                        <article style={{backgroundImage: `url(${pic06})`}}>
-                            <header className="major">
-                                <h3>Etiam</h3>
-                                <p>Feugiat amet tempus</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
-                        <article style={{backgroundImage: `url(${pic06})`}}>
-                            <header className="major">
-                                <h3>Etiam</h3>
-                                <p>Feugiat amet tempus</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
-                        <article style={{backgroundImage: `url(${pic06})`}}>
-                            <header className="major">
-                                <h3>Etiam</h3>
-                                <p>Feugiat amet tempus</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
+                        {projects}
                     </div>
                     
                 </div>

@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Link } from 'gatsby'
+//import { Link } from 'gatsby'
+import MenuLinks from './MenuLinks'
 
 
 class Menu extends React.Component{
@@ -8,19 +9,11 @@ class Menu extends React.Component{
         onToggleMenu: PropTypes.func
     }
 
-    constructor(props){
-        super(props)
-    }
     render(){
         return(
             <nav id="menu">
                 <div className="inner">
-                    <ul className="links">
-                        <li><Link onClick={this.props.onToggleMenu} to="/">Home</Link></li>
-                        <li><Link onClick={this.props.onToggleMenu} to="/landing">Landing</Link></li>
-                        <li><Link onClick={this.props.onToggleMenu} to="/generic">Generic</Link></li>
-                        <li><Link onClick={this.props.onToggleMenu} to="/elements">Elements</Link></li>
-                    </ul>
+                    <MenuLinks/>
                     <ul className="actions vertical">
                         <li><a href="/" className="button special fit">Get Started</a></li>
                         <li><a href="/" className="button fit">Log In</a></li>

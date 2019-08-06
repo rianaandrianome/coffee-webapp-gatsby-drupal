@@ -60,7 +60,7 @@
 					background-color: desaturate(darken(_palette(highlight), 15), 5);
 				}
 			}
-			@include breakpoint(small){
+			@include breakpoint(medium){
 				span{
 					visibility: hidden;
 				}
@@ -136,7 +136,7 @@
 				margin: unset;
 				padding: unset;
 				display: flex;
-				@include breakpoint(small){
+				@include breakpoint(medium){
 					visibility: hidden;
 				}
 			}

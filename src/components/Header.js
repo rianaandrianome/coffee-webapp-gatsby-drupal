@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
+import MenuLinks from './MenuLinks'
 
 class Header extends React.Component{
     static propTypes ={
@@ -40,14 +41,7 @@ class Header extends React.Component{
                 
                 <Link to="/" className="logo"><strong>Forty</strong> <span>by HTML5 UP</span></Link>
                 <nav className="nav-desktop">
-                    <ul className="links">
-                        <li><Link to="/">Home</Link></li>
-                        <li><Link to="/about">About</Link></li>
-                        <li><Link to="/skills">Skills</Link></li>
-                        <li><Link to="/projects">Projects</Link></li>
-                        <li><Link to="/contact">Contact</Link></li>
-
-                    </ul>
+                    <MenuLinks/>
                     <a className="menu-link" onClick={this.props.onToggleMenu} href="javascript:;"></a>
                 </nav>
             </header>

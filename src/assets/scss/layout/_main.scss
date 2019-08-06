@@ -6,62 +6,66 @@
 
 /* Main */
 
-	#main {
-		background-color: _palette(bg-alt);
-
-		> * {
-			border-top: solid 1px _palette(border);
-
-			&:first-child {
-				border-top: 0;
-			}
-
-			@include inner;
-		}
-
-		&.alt {
-			background-color: transparent;
-			border-bottom: solid 1px _palette(border);
-		}
-		.icon-and-text-wrapper{
-			display: flex;
-			flex-wrap: wrap;
-			justify-content: space-around;
-
-			@include breakpoint(small){
-				flex-wrap: unset;
-				justify-content: center;
-				flex-direction: column;
-				align-items: center;
-			}
-			.icon-and-text{
-				width: 20%;
-				text-align: center;
-				@include breakpoint(small){
-					width: 30%;
-				}
-				a{
-					border:none;
-					transition: unset;
-				}
-				a:hover{
-					cursor: pointer;
-					p{
-						color: _palette(fg);
-					}
-					
-				}
-				img{
-					width: 70%;
-					height: auto;
-					@include breakpoint(small){
-						width: 50%;
-					}
-				}
-				
-
-				
-			}
-		}
-		
-	}
+#main {
+    background-color: _palette(bg-alt);
+    >* {
+        border-top: solid 1px _palette(border);
+        &:first-child {
+            border-top: 0;
+        }
+        @include inner;
+    }
+    &.alt {
+        background-color: transparent;
+        border-bottom: solid 1px _palette(border);
+    }
+    .icon-and-text-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        @include breakpoint(medium) {
+            flex-wrap: unset;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+        .icon-and-text {
+            width: 20%;
+            text-align: center;
+            a {
+                border: none;
+                transition: unset;
+                .icon {
+                    font-size: 100px;
+                    color: _palette(icon-large);
+                }
+                h5 {
+                    font-weight: normal;
+                    font-size: 2em;
+                    color: _palette(icon-text);
+                }
+            }
+            a:hover {
+                cursor: pointer;
+                p {
+                    color: _palette(fg);
+                }
+            }
+            img {
+                width: 70%;
+                height: auto;
+                @include breakpoint(medium) {
+                    width: 40%;
+                }
+            }
+            @include breakpoint(medium) {
+                width: 50%;
+            }
+        }
+    }
+    .progress-bar-wrapper{
+        .progress{
+            margin: 10px;
+        }
+    }
+}

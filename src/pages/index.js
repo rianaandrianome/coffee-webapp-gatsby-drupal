@@ -9,20 +9,14 @@ import Projects from '../components/Projects'
 
 
 class HomeIndex extends React.Component {
-    constructor(props) {
-        super(props);
-    }
     
     render() {
 
         return (
                 <Layout>
-                    <Helmet title="Gatsby Starter - Forty" meta={[
-                            { name: 'description', content: 'Sample' },
-                            { name: 'keywords', content: 'sample, something' },
-                        ]}>
+                    <Helmet title="Gatsby Starter - Forty" meta={[{ name: 'description', content: 'Sample' },{ name: 'keywords', content: 'sample, something' },]}>
                     </Helmet>
-
+            
                     <Banner />
 
                     <div id="main">
