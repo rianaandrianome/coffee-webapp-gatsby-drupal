@@ -3,7 +3,7 @@ import React from 'react'
 const Contact = (props) => (
     <section id="contact">
         <div className="inner">
-            <section>
+            <section className="section-contact">
                 <form method="post" action="#">
                     <div className="field half first">
                         <label htmlFor="name">Name</label>
@@ -28,7 +28,7 @@ const Contact = (props) => (
                     <div className="contact-method">
                         <span className="icon alt fa-envelope"></span>
                         <h3>Email</h3>
-                        <a href="#">information@untitled.tld</a>
+                        <a href="/">information@untitled.tld</a>
                     </div>
                 </section>
                 <section>

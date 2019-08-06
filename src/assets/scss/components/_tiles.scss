@@ -10,7 +10,6 @@
 		@include vendor('display', 'flex');
 		@include vendor('flex-wrap', 'wrap');
 		border-top: 0 !important;
-		justify-content: center;
 		& + * {
 			border-top: 0 !important;
 		}
@@ -29,13 +28,11 @@
 			background-repeat: no-repeat;
 			background-size: cover;
 			cursor: default;
-			height: 40vh;
-			max-height: 10em;
-			min-height: 10em;
+			height: 15em;
 			overflow: hidden;
 			position: relative;
 			margin: 10px;
-			width: 20%;
+			width: 30%;
 
 			.image {
 				display: none;
