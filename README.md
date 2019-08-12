@@ -25,14 +25,16 @@ Then you can procede to the installation process.
     ```
 1.  **Configuration**
 
-    Add a new virtual host to your server linked to the project directory.
-    Open the host address in your browser to view the site.
+    * Add a new virtual host to your server linked to the project directory.
+    * Open the host address in your browser to view the site.
 
 1.  **More information**
 
     The Drupal Site is up and running.
 
-    Make sure the JSON:API module `https://www.drupal.org/project/jsonapi` and the JSON:API extras module `https://www.drupal.org/project/jsonapi_extras` are enabled and up to date.
+    Make sure that the
+    * JSON:API module `https://www.drupal.org/project/jsonapi` and the
+    * JSON:API extras module `https://www.drupal.org/project/jsonapi_extras` are enabled and up to date.
 
     The JSON:API module allows you to gain a full REST API access for every type in your Drupal application.
 
