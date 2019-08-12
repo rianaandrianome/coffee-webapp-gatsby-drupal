@@ -7,6 +7,8 @@ First you need to [install composer] globally on your machine.
 
 Refer to the following if you are on an Ubuntu machine:
 
+[Named Link](http://www.google.fr/ "Named link title")
+
 (`https://www.digitalocean.com/community/tutorials/how-to-install-and-use-composer-on-ubuntu-18-04`)
 
 Then you can procede to the installation process.
