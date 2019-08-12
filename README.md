@@ -10,7 +10,7 @@
 
 This is an example of a gatsby site with content pulled from a Drupal REST API.
 
-The project is built from a gatsby starter template found at:(https://www.gatsbyjs.org/starters/gatsbyjs/gatsby-starter-default/)
+The project is built from a gatsby starter template found at: [Gatsby starter default](https://www.gatsbyjs.org/starters/gatsbyjs/gatsby-starter-default/ "Gatsby starter default")
 
 ## Instructions
 
