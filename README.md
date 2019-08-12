@@ -25,7 +25,7 @@ Then you can procede to the installation process.
     ```
 1.  **Configuration**
 
-    * Add a new virtual host to your server linked to the project directory.
+    * Add a new virtual host to your server (linked to the project directory).
     * Open the host address in your browser to view the site.
 
 1.  **More information**
