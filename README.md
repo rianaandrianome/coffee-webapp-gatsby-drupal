@@ -35,8 +35,8 @@ Then you can procede to the installation process.
     The Drupal Site is up and running.
 
     Make sure that the
-    * [JSON:API module] (https://www.drupal.org/project/jsonapi "JSON:API module") and the
-    * [JSON:API extras module] (https://www.drupal.org/project/jsonapi_extras "JSON:API extras module") are enabled and up to date.
+    * [JSON:API module](https://www.drupal.org/project/jsonapi "JSON:API module") and the
+    * [JSON:API extras module](https://www.drupal.org/project/jsonapi_extras "JSON:API extras module") are enabled and up to date.
 
     The JSON:API module allows you to gain a full REST API access for every type in your Drupal application.
 
