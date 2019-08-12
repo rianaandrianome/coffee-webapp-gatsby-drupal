@@ -55,6 +55,10 @@ The project is built from a gatsby starter template found at:(https://www.gatsby
     },
 
     ```
-    Feel free to modify it and put your API url instead
+    Feel free to modify it and put your API url instead.
+    
+    Once the baseUrl is specified, you can view all the content available from the REST API in: `http://localhost:8000/___graphql`
+    
+    You can then query any content in your components using graphql queries. 
 
 <!-- AUTO-GENERATED-CONTENT:END -->
