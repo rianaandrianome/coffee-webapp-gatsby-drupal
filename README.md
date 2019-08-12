@@ -7,9 +7,8 @@ First you need to [install composer] globally on your machine.
 
 Refer to the following if you are on an Ubuntu machine:
 
-[Named Link](http://www.google.fr/ "Named link title")
+[Installing composer globally on ubuntu](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-composer-on-ubuntu-18-04 "Installing composer globally on ubuntu")
 
-(`https://www.digitalocean.com/community/tutorials/how-to-install-and-use-composer-on-ubuntu-18-04`)
 
 Then you can procede to the installation process.
 ## Instructions
@@ -36,11 +35,11 @@ Then you can procede to the installation process.
     The Drupal Site is up and running.
 
     Make sure that the
-    * JSON:API module `https://www.drupal.org/project/jsonapi` and the
-    * JSON:API extras module `https://www.drupal.org/project/jsonapi_extras` are enabled and up to date.
+    * [JSON:API module] (https://www.drupal.org/project/jsonapi "JSON:API module") and the
+    * [JSON:API extras module] (https://www.drupal.org/project/jsonapi_extras "JSON:API extras module") are enabled and up to date.
 
     The JSON:API module allows you to gain a full REST API access for every type in your Drupal application.
 
     It inspects your entity types and bundles so that it can dynamically provide URLs by which to access each and every one of them using the standard HTTP methods, GET, POST, PATCH, and DELETE.
 
-    The full documentation for this module can be found here `https://www.drupal.org/docs/8/modules/jsonapi/jsonapi`.
+    The full documentation for this module can be found here [documentation](https://www.drupal.org/docs/8/modules/jsonapi/jsonapi "documentation")
