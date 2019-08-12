@@ -2,7 +2,7 @@ This is a Drupal Site used as a REST API to feed content to a gatsby site.
 The JSON:API and the JSON:API extras modules are used to make the drupal site behave like a REST API.
 
 ## Usage
-First you need to [install composer] globally on your machine.
+First you need to [install composer] globally on your machine.\n
 Refer to the following if you are on an Ubuntu machine:
 `https://www.digitalocean.com/community/tutorials/how-to-install-and-use-composer-on-ubuntu-18-04`
 
