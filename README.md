@@ -21,7 +21,8 @@ The project is built from a gatsby starter template found at:(https://www.gatsby
     ```sh
     # clone the project into a directory
     git clone https://github.com/riana2018/gatsby_sites.git
-    
+    # and switch to the coffee_gatsby branch
+    git checkout coffee_gatsby
     # use npm to install all the dependencies needed
     npm install  
     
