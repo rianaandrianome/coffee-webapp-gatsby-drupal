@@ -6,7 +6,8 @@ The JSON:API and the JSON:API extras modules are used to make the drupal site be
 First you need to [install composer] globally on your machine.
 
 Refer to the following if you are on an Ubuntu machine:
-`https://www.digitalocean.com/community/tutorials/how-to-install-and-use-composer-on-ubuntu-18-04`
+
+(`https://www.digitalocean.com/community/tutorials/how-to-install-and-use-composer-on-ubuntu-18-04`)
 
 Then you can procede to the installation process.
 ## Instructions
