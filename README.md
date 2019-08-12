@@ -20,7 +20,8 @@ Then you can procede to the installation process.
     ```sh
     # clone the project into a directory
     git clone https://github.com/riana2018/gatsby_sites.git
-
+    # and switch to the coffee_drupalapi branch
+    git checkout coffee_drupalapi
     # use composer to install all the dependencies needed
     composer install
 
